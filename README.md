@@ -5,23 +5,23 @@
 * import random
 * def result(com,you):
 *     if (com=="s" and you=="s"):
-*         print("'Stone' and 'Stone' than Draw the Game")
+*         print("'Stone' and 'Stone' then Draw the Game")
 *     elif (com=="p" and you=="p"):
-*         print("'Paper' and 'Paper' than Draw the Game")
+*         print("'Paper' and 'Paper' then Draw the Game")
 *     elif (com=="c" and you=="c"):
-*         print("'Secissor' and 'Secissor' than Draw the Game")
+*         print("'Secissor' and 'Secissor' then Draw the Game")
 *     elif (com=="s" and you=="p"):
-*         print("'Stone' and 'Paper' is 'Paper' than you win the Game")
+*         print("'Stone' and 'Paper' is 'Paper' then you win the Game")
 *     elif (com=="p" and you=="c"):
-*         print("'Paper' and 'Secissor' is 'Secissor' than you win the Game")
+*         print("'Paper' and 'Secissor' is 'Secissor' then you win the Game")
 *     elif (com=="c" and you=="s"):
-*         print("'Secissor' and 'Stone' is 'Stone' than you win the Game")
+*         print("'Secissor' and 'Stone' is 'Stone' then you win the Game")
 *     elif (com=="c" and you=="p"):
-*         print("'Secissor' and 'Paper' is 'Secissor' than you loss the Game")
+*         print("'Secissor' and 'Paper' is 'Secissor' then you loss the Game")
 *     elif (com=="s" and you=="c"):
-*         print("'Stone' and 'Secissor' is 'Stone' than you loss the Game")
+*         print("'Stone' and 'Secissor' is 'Stone' then you loss the Game")
 *     elif (com=="p" and you=="s"):
-*         print("'Paper' and 'Stone' is 'Paper' than you loss the Game")
+*         print("'Paper' and 'Stone' is 'Paper' then you loss the Game")
 * com= random.randint(1,4)
 * if(com==1):
 *     com="s" #s=stone
