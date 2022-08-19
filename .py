@@ -34,7 +34,7 @@ print('''           welcome the "'Stone' 'Paper' 'Secissor'" game
           you have only three chance''')
 
 for i in range(3):
-   you=(input("game the stare\nstone(s),paper(p),secissoe(c)\n"))
+    you=(input("game the stare\nstone(s),paper(p),secissoe(c)\n"))
     #print(you)
     #print(you)
     if(you=="s"or you=="p" or you=="c"):
